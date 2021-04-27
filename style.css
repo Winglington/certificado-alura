@@ -29,6 +29,11 @@ header {
   border-radius: 10px;
 }
 
+a { 
+  color: inherit; 
+} 
+
+
 div {
   padding: 15px;
   border: 1px solid black;
