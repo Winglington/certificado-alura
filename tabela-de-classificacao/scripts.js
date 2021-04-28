@@ -23,8 +23,6 @@ function calculaPontos(jogador) {
 
 var jogadores = [rafa, paulo]
 
-exibirJogadoresNaTela(jogadores)
-
 function exibirJogadoresNaTela (jogadores) {
 	var html = ""
 	for (var i = 0;	i < jogadores.length; i++) {
@@ -39,7 +37,9 @@ function exibirJogadoresNaTela (jogadores) {
 	}
 	var tabelaJogadores = document.getElementById('tabelaJogadores')
 	tabelaJogadores.innerHTML = html
-	}
+}
+
+exibirJogadoresNaTela (jogadores)
 
 function adicionarVitoria(i) {
 	var jogador = jogadores[i]
